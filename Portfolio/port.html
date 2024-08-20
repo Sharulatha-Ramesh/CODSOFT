@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1></h1>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h2>Hi, I am [Sharulatha R]</h2>
+                <h3>[Information Technology]</h3>
+            
+                <a href="#contact" class="btn">Contact Me</a>
+<div class="social-links">
+                <a href="https://www.linkedin.com/in/sharulatha22/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sharulatha-Ramesh" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+            </div>
+
+            <div class="picture-content">
+                <img src="img.jpg.jpg" alt="Your Name" class="profile-picture">
+            </div>
+        </div>
+    </section>
+<section="about">
+    <div class="about-content">
+        <div class="about-left" style="margin-left: 10px;">
+            <h2>About Me</h2>
+               <p>As a passionate IT student and aspiring web developer, I am driven by the desire to create innovative and efficient web solutions. With a strong foundation in programming languages like Java, Python, HTML, and CSS, I continuously seek to expand my knowledge and skills in web technologies. My career goal is to become a full-stack developer, utilizing tools like the MERN stack and AWS to build scalable and responsive web applications. I am particularly interested in front-end development, where creativity meets functionality, and I am always eager to take on new challenges and learn from each experience.</p>
+        </div>
+        <div class="about-right">
+            <h3>Resume</h3>
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </div>
+</section>
+
+   <section id="skills">
+    <div class="skills-content">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          
+            <div class="languages-known">
+                <h3>Languages Known</h3>
+                <div class="skill-item">
+                    <img src="java.png" alt="Java Icon">
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <img src="py.png" alt="Python Icon">
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <img src="ht.png" alt="HTML Icon">
+                    <span>HTML and CSS</span>
+                </div>
+               </div>
+
+           
+            <div class="technologies-known">
+                <h3>Technologies Known</h3>
+                <div class="skill-item">
+                    <img src="mern.png" alt="MERN Stack Icon">
+                    <span>MERN Stack</span>
+                </div>
+                <div class="skill-item">
+                    <img src="aws.png" alt="AWS Icon">
+                    <span>AWS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="projects">
+        <div class="projects-content">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <h3>Eduinnohub</h3>
+                <ul><li> Used: MongoDB, Express, React, Node.js (MERN).</li><li>Features: Enables peer-to-peer communication and ensures project uniqueness using semantic analysis to check for
+plagiarism in project abstracts.</li><li>Outcome: Established a platform to promote creativity, collaboration, and knowledge exchange among students,
+enhancing academic innovation and empowerment.</li></ul>
+            </div>
+            <div class="project-container">
+                <h3>Resume Builder Tool using AWS, HTML</h3>
+                <ul><li> Users input their resume details into a form, which is then seamlessly incorporated into an HTML
+template. This HTML template undergoes conversion into a refined PDF format. The finalized resume is securely
+stored on an Amazon S3 bucket for easy access.</li><li> Users can download their customized resumes in PDF format by clicking the download button.</li></ul>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="contact">
+    <div class="contact-content">
+        
+        <div class="contact-info">
+            <img src="email.png" alt="Email Icon">
+            <p>Email: <a href="mailto:sharulatha2205@gmail.com">sharulatha2205@gmail.com</a></p>
+        </div>
+        <div class="contact-info">
+            <img src="loca.png" alt="Location Icon">
+            <p>Location: Coimbatore, India</p>
+        </div>
+        
+     
+        <form class="contact-form" action="send-message.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Sharulatha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
